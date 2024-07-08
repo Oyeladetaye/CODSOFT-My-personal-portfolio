@@ -1,0 +1,269 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #fff;
+}
+h2 {
+  color: #fff;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  font-size: larger;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  background: #444;
+  overflow: hidden;
+  color: #fff;
+  font-size: larger;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background: #8d7575;
+  color: aqua;
+}
+
+#about {
+  background-color: #444;
+}
+
+#About-head {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: -5rem;
+}
+.about-text {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0px;
+}
+
+.taye {
+  font-size: 1.6rem;
+  color: rgba(237, 233, 240, 0.986);
+  font-weight: 800;
+}
+.frontend {
+  font-size: 1.4rem;
+  color: rgb(241, 238, 44);
+  font-weight: 800;
+}
+
+.profile-pic {
+  width: 20%;
+  height: 30%;
+  border-radius: 50%;
+  margin-left: 35rem;
+  margin-top: 5rem;
+}
+
+#skills {
+  background: #444;
+  margin-top: -4rem;
+  padding-bottom: 4rem;
+}
+
+.skills-list {
+  margin-top: 4rem;
+  padding: 1rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.html,
+.css,
+.bs,
+.js,
+.react,
+.git,
+.github,
+.wp {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 2rem;
+  margin-right: 1rem;
+  border: 2px solid rgb(241, 238, 44);
+  border-radius: 10px;
+}
+
+#projects {
+  background: #444;
+  margin-top: -2rem;
+}
+
+#projectss {
+  margin-right: 4rem;
+  margin-left: 4rem;
+  margin-bottom: -1.5rem;
+}
+.project-bag {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem;
+}
+.project {
+  border-radius: 25px;
+  border: 2px solid rgb(241, 238, 44);
+  padding: 0.5rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.text {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+main section {
+  margin: 20px 0;
+}
+
+main section img {
+  max-width: 100%;
+  height: auto;
+}
+
+#resume,
+#social,
+#contact {
+  background: #444;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin-bottom: -2rem;
+}
+
+.resumee,
+.contactt {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.fa_text {
+  color: #fff;
+}
+.fa-envelope,
+.fa-phone {
+  color: rgb(241, 238, 44);
+}
+
+#social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+hr {
+  color: #fff;
+  margin-top: 0.1rem;
+}
+footer {
+  background: #333;
+  color: #fff;
+  margin-top: 0.5rem;
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+  bottom: 0;
+}
+
+a {
+  color: #fff;
+  font-weight: 700;
+}
+a:link {
+  color: #fff;
+}
+
+a:visited {
+  color: greenyello;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: aquamarine;
+}
+@media screen and (max-width: 600px;) {
+  main {
+    background-color: #444;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 1400px;) {
+  main {
+    background-color: #444;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 300px;) {
+  main {
+    background-color: #444;
+    width: 100%;
+    margin: 0px;
+  }
+
+  #skills,
+  #project,
+  #resume #contact {
+    width: 100%;
+    background: #444;
+    padding: 0px;
+    margin: auto;
+  }
+
+  nav{
+    padding:2px;
+    margin:0px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0px;
+    background: #444;
+  }
+
+  .profile-pic {
+    margin: 0px;
+  }
+
+  #projects{
+    margin: 1px 5px;
+    padding: 2px;
+  }
+}
